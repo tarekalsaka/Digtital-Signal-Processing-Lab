@@ -1,0 +1,1 @@
+function x = sinFn(f,n,Ts)  t = [0:1/Ts:n/f];  x=sin(2*pi*f*t);end

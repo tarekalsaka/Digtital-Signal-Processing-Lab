@@ -1,0 +1,1 @@
+function x = Box(a,n,N)    if ~n>=(1+a) && ~n<=(N-a)        disp('n is out of range!')        x=0;    else        array=zeros(1,N);        for i=(n-a):(n+a)            array(i)=1;        end        x=array;    endend
